@@ -4,25 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" rel="stylesheet">
-
+    <link rel="icon" type="x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="website-html.css/style.css">
+    
     <title>Bakery</title>
 </head>
 <!--https://www.youtube.com/watch?v=TTOkgUNmNk0-->
 <body>
 
-    <header>                    <!-- Menu de navegación -->
-        <p>Bakery</p>
-        <nav>
-            <ul class="nav">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#News">News</a></li>
-                <li><a href="#About us">About us</a></li>
-                <li><a href="#Favorites">Favorites</a></li>
-                <li><a href ="#Location">Location</a></li>
-            </ul>
+    <header class="header" id="header">                    <!-- Menu de navegación -->
+        <nav class ="nax container">
+            <a href="#" class="nav__logo">Bakery</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#New" class="nav__link">News</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav__link">About us</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#favorite" class="nav__link">Favorites</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#visit" class="nav__link">Location</a>
+                    </li>
+                </ul>
+
+                 <!--Botón call to action-->
+                 <div class="nav__close" id="nav-close">
+                     <i class="ri-close-line"></i>
+                 </div>
+
+                 <!-- <img src="img/bread-4.png" alt="iamge" class="nav__img-1">
+                 <img src="img/bread-1.png" alt="iamge" class="nav__img-2"> -->
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-fill"></i>
+            </div>
+
         </nav>
-                                <!--Botón call to action-->
-        <div>
+        
+
+                                <!--Sección Home-->
         <h3>Select The Best Quality Breads</h3>
         <button class="button">Select Breads</button>
         <img src="img/home-bread.png" alt="Imagen de pan" width="500" height="500">
